@@ -1,0 +1,51 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+h1 {
+  color: #f00;
+}
+.button {
+  border: solid 1px #000;
+  padding: 8px;
+  text-decoration: none;
+  background-color: #000;
+  color: #fff;
+}
+.button-outline {
+  border: solid 1px #000;
+  padding: 8px;
+  text-decoration: none;
+  color: #000;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.5;
+  padding-block: 0.625rem;
+  padding-inline: 0.25rem;
+  align-items: center;
+}
+.navbar a {
+  color: #555;
+  text-decoration: none;
+  padding: 1rem;
+}
+.navbar a:hover {
+  color: #000;
+}
+.navbar a:first-child {
+  color: #000;
+  margin-right: auto;
+  font-weight: bold;
+  padding-left: 0.5rem;
+}
+.navbar a:last-child {
+  padding-right: 0.5rem;
+}
+.navbar .button {
+  border: 0;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+}
