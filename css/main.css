@@ -3,11 +3,22 @@
 ::after {
   box-sizing: border-box;
 }
+html {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+/* 1 */
+  line-height: 1.15; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 3 */
+  tab-size: 4; /* 4 */
+}
 h1 {
+  color: #f00;
+}
+a {
   color: #f00;
 }
 .button {
   border: solid 1px #000;
+  border-radius: 4px;
   padding: 8px;
   text-decoration: none;
   background-color: #000;
@@ -15,6 +26,7 @@ h1 {
 }
 .button-outline {
   border: solid 1px #000;
+  border-radius: 4px;
   padding: 8px;
   text-decoration: none;
   color: #000;
